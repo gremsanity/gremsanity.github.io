@@ -1,0 +1,119 @@
+body {
+    background-image: url("image/BG.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.logo-mod {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 43.5%;
+    top: 3%;
+    box-shadow: 0 10px 15px -5px #888888;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.border-center {
+    width: 710px;
+    height: 515px;
+    background-color: #ffffff;
+    margin-top: 130px;
+    margin-left: 410px;
+    box-shadow: 0px 5px 15px #888888;
+    opacity: 0.8;
+}
+
+.uic-portal-mod {
+    z-index: 3;
+    position: absolute;
+    left: 40.2%;
+    top: 251px;
+}
+
+input {
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    padding: 11px;
+    width: 300px;
+    position: relative;
+    margin: 0 0 20px;
+    transition-timing-function: ease-in;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input:focus {
+    outline: none;
+    border-bottom-color: #e65b7a;
+    border-width: medium;
+}
+
+input:hover {
+    border-bottom: 5px solid;
+    border-bottom-color: #e65b7a;
+    border-width: medium;
+    transition: 0.3s;
+    
+}
+
+.password-input-mod {
+    margin-left: 15px;
+}
+
+.input-container {
+    float: left;
+    position: relative;
+    top: 290px;
+    margin-left: 10px;
+    padding: 10.5px;
+}
+
+button {
+    border: 1px solid #e65b7a;
+    background-color: #e65b7a;
+    padding: 0px;
+    color: white;
+    box-shadow: 0px 5px 15px #888888;
+    border-radius: 2px;
+    width: 127px;
+    height: 50px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 700px;
+    margin-top: 380px;
+    z-index: 3;
+    position: absolute;
+    transition-timing-function: ease-in;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #e5496b;
+}
+
+p{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 704px;
+    z-index: 1;
+    color: #039be5;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+p:hover {
+    cursor: pointer;
+}
